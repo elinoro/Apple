@@ -1,0 +1,166 @@
+.container{
+  height: 800vh;
+}
+
+.topNavigation{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #303233;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topNavigation ul{
+  list-style: none;
+  display: flex;
+}
+
+.topNavigation ul li{
+  margin: 10px 37px;
+}
+
+.topNavigation a{
+  text-decoration: none;
+  color: #D2D3D3;
+}
+
+a{
+  text-decoration: none;
+}
+
+.topNavigation a:hover{
+  color: white;
+}
+
+.container1::before{
+  content: '';
+  background: #131313;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:98vh;
+  width: 100%;
+  z-index: -2;
+}
+
+.section1::before{
+  content: '';
+  background: url('/images/section1.2.PNG') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:98vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.section1{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.section1 a:hover{
+  text-decoration: underline;
+}
+
+.appleLogo{
+  height: 19px;
+  width: 19px;
+}
+
+.searchLogo{
+  height: 22px;
+  width: 22px;
+}
+
+.shoppingBag{
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 5px;
+}
+
+.learnBuy{
+  display: flex;
+  justify-content: center;
+}
+
+.learnBuy ul{
+  list-style: none;
+  display: flex;
+}
+
+.learnBuy a{
+  color: #2997FF;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.clr1{
+  width: 30px;
+}
+
+.p1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 50px 0 5px 0;
+}
+
+.p2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.p3{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #86868B;
+  padding-bottom: 20px;
+}
+
+.p3 a{
+  text-decoration: none;
+  color: #86868B;
+  position: absolute;
+  font-size: 0.5rem;
+}
+
+.p3 a:hover{
+  color: #0071E3;
+  text-decoration: none;
+}
+
+.covid{
+  background: #0071E3;
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 1rem;
+}
+
+.covid a{
+  color: white;
+}
+
+
+.shopOnline{
+  background: white;
+  color: black;
+  font-size: 0.85rem;
+  padding: 1rem;
+}
+
+.shopOnline a{
+  color: #0071E3;
+  font-weight: bold;
+}
+
+.shopOnline a:hover{
+  color: #0071E3;
+  text-decoration: underline;
+}
